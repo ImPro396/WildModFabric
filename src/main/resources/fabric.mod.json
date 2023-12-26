@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wildmod",
+	"version": "${version}",
+	"name": "Wild Mod",
+	"description": "Explore the wild with this mod",
+	"authors": [
+		"Concrety"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://www.youtube.com/@ModdingByKaupenjoe"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wildmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.concrety.wildmod.WildMod"
+		],
+		"client": [
+			"com.concrety.wildmod.WildModClient"
+		],
+		"fabric-datagen": [
+			"com.concrety.wildmod.WildModDataGenerator"
+		]
+	},
+	"mixins": [
+		"wildmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
