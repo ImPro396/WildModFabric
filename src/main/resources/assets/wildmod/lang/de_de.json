@@ -1,9 +1,11 @@
 {
   "item.wildmod.ruby": "Rubin",
   "item.wildmod.raw_ruby": "Roher Rubin",
+  "item.wildmod.metal_detector": "Metal Detektor",
 
   "block.wildmod.ruby_block": "Rubin Block",
   "block.wildmod.raw_ruby_block": "Roher Rubin Block",
+  "block.wildmod.raw_ruby_block": "Rubin Erz",
 
   "itemgroup.mod_items": "Mod Items"
 }

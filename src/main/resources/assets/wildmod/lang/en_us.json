@@ -1,9 +1,11 @@
 {
   "item.wildmod.ruby": "Ruby",
   "item.wildmod.raw_ruby": "Raw Ruby",
+  "item.wildmod.metal_detector": "Metal Detector",
 
   "block.wildmod.ruby_block": "Block of Ruby",
   "block.wildmod.raw_ruby_block": "Raw Ruby Block",
+  "block.wildmod.raw_ruby_block": "Ruby Ore",
 
   "itemgroup.mod_items": "Mod Items"
 }
