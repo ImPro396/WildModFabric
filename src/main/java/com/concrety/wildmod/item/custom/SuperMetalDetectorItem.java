@@ -10,8 +10,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 
-public class MetalDetectorItem extends Item {
-    public MetalDetectorItem(Settings settings) {
+public class SuperMetalDetectorItem extends Item {
+    public SuperMetalDetectorItem(Settings settings) {
         super(settings);
     }
 
@@ -22,7 +22,7 @@ public class MetalDetectorItem extends Item {
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
 
-            for(int i = 0; i <= positionClicked.getY() + 64; i++) {
+            for(int i = 0; i <= positionClicked.getY() + 128; i++) {
                 BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
                 if(isValuableBlock(state)) {
@@ -50,6 +50,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE);
+        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DEEPSLATE_IRON_ORE);
     }
 }

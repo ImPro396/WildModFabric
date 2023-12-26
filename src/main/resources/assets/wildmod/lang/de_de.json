@@ -1,7 +1,8 @@
 {
   "item.wildmod.ruby": "Rubin",
   "item.wildmod.raw_ruby": "Roher Rubin",
-  "item.wildmod.metal_detector": "Metal Detektor",
+  "item.wildmod.metal_detector": "Metall Detektor",
+  "item.wildmod.super_metal_detector": "Super Metall Detektor",
 
   "block.wildmod.ruby_block": "Rubin Block",
   "block.wildmod.raw_ruby_block": "Roher Rubin Block",
