@@ -1,5 +1,6 @@
 package com.concrety.wildmod;
 
+import com.concrety.wildmod.block.ModBlocks;
 import com.concrety.wildmod.item.ModItemGroups;
 import com.concrety.wildmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,8 +15,9 @@ public class WildMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups ();
 
 		ModItems.registerModItems ();
-		ModItemGroups.registerItemGroups ();
+		ModBlocks.registerModBlocks ();
 	}
 }

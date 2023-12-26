@@ -2,5 +2,7 @@
   "item.wildmod.ruby": "Ruby",
   "item.wildmod.raw_ruby": "Raw Ruby",
 
+  "block.wildmod.ruby_block": "Block of Ruby",
+
   "itemgroup.mod_items": "Mod Items"
 }
