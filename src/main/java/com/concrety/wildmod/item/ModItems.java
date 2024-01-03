@@ -2,7 +2,9 @@ package com.concrety.wildmod.item;
 
 import com.concrety.wildmod.WildMod;
 import com.concrety.wildmod.item.custom.MetalDetectorItem;
+import com.concrety.wildmod.item.custom.PogoStickItem;
 import com.concrety.wildmod.item.custom.SuperMetalDetectorItem;
+import com.concrety.wildmod.item.custom.TerraformerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,10 +17,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item RUBY = registerItem ("ruby", new Item(new FabricItemSettings ())); //Ruby Item
-    public static final Item RAW_RUBY = registerItem ("raw_ruby", new Item(new FabricItemSettings ())); //Raw Ruby Item
-    public static final Item METAL_DETECTOR = registerItem ("metal_detector", new MetalDetectorItem (new FabricItemSettings ().maxDamage (50))); //Raw Ruby Item
-    public static final Item SUPER_METAL_DETECTOR = registerItem ("super_metal_detector", new SuperMetalDetectorItem(new FabricItemSettings ().maxDamage (200))); //Raw Ruby Item
+    public static final Item RUBY = registerItem ("ruby", new Item(new FabricItemSettings ()));
+    public static final Item RAW_RUBY = registerItem ("raw_ruby", new Item(new FabricItemSettings ()));
+    public static final Item METAL_DETECTOR = registerItem ("metal_detector", new MetalDetectorItem (new FabricItemSettings ().maxDamage (50)));
+    public static final Item SUPER_METAL_DETECTOR = registerItem ("super_metal_detector", new SuperMetalDetectorItem(new FabricItemSettings ().maxDamage (200)));
+    public static final Item POGO_STICK = registerItem ("pogo_stick", new PogoStickItem (new FabricItemSettings ().maxDamage (100)));
+    public static final Item TERRAFORMER = registerItem ("terraformer", new TerraformerItem (new FabricItemSettings ().maxDamage (500)));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add (RUBY);
         entries.add (RAW_RUBY);

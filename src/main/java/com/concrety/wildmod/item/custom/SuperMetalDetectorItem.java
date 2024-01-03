@@ -28,8 +28,6 @@ public class SuperMetalDetectorItem extends Item {
                 if(isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
-
-                    break;
                 }
             }
 
