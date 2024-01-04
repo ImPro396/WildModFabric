@@ -19,6 +19,7 @@ public class ModItems {
 
     public static final Item RUBY = registerItem ("ruby", new Item(new FabricItemSettings ()));
     public static final Item RAW_RUBY = registerItem ("raw_ruby", new Item(new FabricItemSettings ()));
+    public static final Item BUTTER = registerItem ("butter", new Item(new FabricItemSettings ().food (ModFoodComponents.BUTTER)));
     public static final Item METAL_DETECTOR = registerItem ("metal_detector", new MetalDetectorItem (new FabricItemSettings ().maxDamage (50)));
     public static final Item SUPER_METAL_DETECTOR = registerItem ("super_metal_detector", new SuperMetalDetectorItem(new FabricItemSettings ().maxDamage (200)));
     public static final Item POGO_STICK = registerItem ("pogo_stick", new PogoStickItem (new FabricItemSettings ().maxDamage (100)));

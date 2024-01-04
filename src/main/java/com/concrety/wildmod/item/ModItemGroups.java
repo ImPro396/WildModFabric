@@ -18,6 +18,7 @@ public class ModItemGroups implements ModInitializer {
                     .entries ((displayContext, entries) -> {
                         entries.add (ModItems.RUBY);
                         entries.add (ModItems.RAW_RUBY);
+                        entries.add (ModItems.BUTTER);
                         entries.add (ModItems.METAL_DETECTOR);
                         entries.add (ModItems.SUPER_METAL_DETECTOR);
                         entries.add (ModItems.POGO_STICK);
